@@ -1,16 +1,6 @@
-# rszbin.github.io homepage
+# yt-dlp & ffmpeg
 
-## yt-dlp & ffmpeg
-
-`
-ffmpeg -i [inputfile].opus [outputfile].mp3
-`
-Where
--i: input
-
-## yt-dlp
-
-### Choosing a Download Format
+## yt-dlp Choosing a Download Format
 
 To view a comprehensive list of all the available formats for a video or playlist, utilize the following command:
 
@@ -28,5 +18,18 @@ yt-dlp -f 243 https://youtu.be/8zDX1hztNHA?si=5E9yTKkfZj4VoZDL
 //You can even download a video or playlist in a specific quality with a defined resolution. For example, to download the best quality video with a resolution of 480 pixels or lower (less than or equal to 480p), use this command:
 //yt-dlp -f "best[height<=1440]" <URL>
 
-### yt-dlp Audio Only
+## yt-dlp Audio
 yt-dlp -x https://youtu.be/bXL13mGQ2sc
+
+
+yt-dlp -x --audio-format mp3 [url]
+
+## Using ffmpeg to convert audio files to mp3
+
+If you already have an audio file downloaded, you can convert the format to mp3 using ffmpeg:
+
+`
+ffmpeg -i [inputfile].opus [outputfile].mp3
+`
+Where
+-i: input
