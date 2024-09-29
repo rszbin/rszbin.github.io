@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Windows KDiff3 Error: "Opening of these files failed... Unknown error."
+date:   2024-09-26 00:00:00 +1200
+categories: linux video
+---
 # yt-dlp & ffmpeg
 
 ## yt-dlp Choosing a Download Format
