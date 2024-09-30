@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Windows KDiff3 Error: "Opening of these files failed... Unknown error."
+title: 'Windows KDiff3 Error: "Opening of these files failed... Unknown error."'
 date: 2024-09-27 00:00:00 +1200
 categories: windows tools
 ---
