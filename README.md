@@ -5,8 +5,8 @@ Homepage
 
 Build & Run site locally:
 
-`
+```bash
 bundle install
 
 bundle exec jekyll serve
-`   
+```
