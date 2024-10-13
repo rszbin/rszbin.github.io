@@ -3,6 +3,7 @@ layout: post
 title: 'RPM Commands for KDE Linux'
 date: 2024-10-13 00:00:00 +1200
 categories: linux
+tags: linux
 ---
 
 ## List All Installed Packages
