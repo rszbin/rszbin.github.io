@@ -30,6 +30,10 @@ yt-dlp -x https://youtu.be/bXL13mGQ2sc
 
 yt-dlp -x --audio-format mp3 [url]
 
+
+## yt-dlp select audio and video, merge into single mp4
+yt-dlp -f 'abc_01+audio_02' --merge-output-format mp4 <video-url>
+
 ## Using ffmpeg to convert audio files to mp3
 
 If you already have an audio file downloaded, you can convert the format to mp3 using ffmpeg:
